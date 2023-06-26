@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD32FEE22A462A4600C71E59 /* Comfortaa in Resources */ = {isa = PBXBuildFile; fileRef = BD32FEE12A462A4500C71E59 /* Comfortaa */; };
 		BDCC3E302A46134600F4B9D4 /* InteractiveUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC3E2F2A46134600F4B9D4 /* InteractiveUIApp.swift */; };
 		BDCC3E322A46134600F4B9D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC3E312A46134600F4B9D4 /* ContentView.swift */; };
 		BDCC3E342A46134800F4B9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCC3E332A46134800F4B9D4 /* Assets.xcassets */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD32FEE12A462A4500C71E59 /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Comfortaa; path = ../../../../../Downloads/Comfortaa; sourceTree = "<group>"; };
+		BD32FEE42A462AC300C71E59 /* Comfortaa */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa; sourceTree = "<group>"; };
+		BD32FEE62A462AC300C71E59 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		BD32FEE72A462AC300C71E59 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		BD32FEE82A462AC300C71E59 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		BD32FEE92A462AC300C71E59 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		BD32FEEA2A462AC300C71E59 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		BD32FEEB2A462AC300C71E59 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BD32FEEC2A462AC300C71E59 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		BDCC3E2C2A46134600F4B9D4 /* InteractiveUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCC3E2F2A46134600F4B9D4 /* InteractiveUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveUIApp.swift; sourceTree = "<group>"; };
 		BDCC3E312A46134600F4B9D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD32FEE32A462AC300C71E59 /* Comfortaa */ = {
+			isa = PBXGroup;
+			children = (
+				BD32FEE42A462AC300C71E59 /* Comfortaa */,
+				BD32FEE52A462AC300C71E59 /* static */,
+				BD32FEEB2A462AC300C71E59 /* OFL.txt */,
+				BD32FEEC2A462AC300C71E59 /* README.txt */,
+			);
+			path = Comfortaa;
+			sourceTree = "<group>";
+		};
+		BD32FEE52A462AC300C71E59 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				BD32FEE62A462AC300C71E59 /* Comfortaa-Light.ttf */,
+				BD32FEE72A462AC300C71E59 /* Comfortaa-SemiBold.ttf */,
+				BD32FEE82A462AC300C71E59 /* Comfortaa-Medium.ttf */,
+				BD32FEE92A462AC300C71E59 /* Comfortaa-Regular.ttf */,
+				BD32FEEA2A462AC300C71E59 /* Comfortaa-Bold.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		BDCC3E232A46134600F4B9D4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +87,7 @@
 				BDCC3E2F2A46134600F4B9D4 /* InteractiveUIApp.swift */,
 				BDCC3E312A46134600F4B9D4 /* ContentView.swift */,
 				BDCC3E332A46134800F4B9D4 /* Assets.xcassets */,
+				BD32FEE32A462AC300C71E59 /* Comfortaa */,
 				BDCC3E352A46134800F4B9D4 /* Preview Content */,
 			);
 			path = InteractiveUI;
@@ -62,6 +96,7 @@
 		BDCC3E352A46134800F4B9D4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BD32FEE12A462A4500C71E59 /* Comfortaa */,
 				BDCC3E362A46134800F4B9D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -126,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCC3E372A46134800F4B9D4 /* Preview Assets.xcassets in Resources */,
+				BD32FEE22A462A4600C71E59 /* Comfortaa in Resources */,
 				BDCC3E342A46134800F4B9D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
